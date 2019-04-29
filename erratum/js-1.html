@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>TM Conway's GOL</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+
+<body>
+  <h1>TM Conway's GOL: Team MPP</h1>
+  <h4>Time-stamp: <2019-04-17 12:00:00 Michael Perez>
+  </h4>
+  <canvas id="grid" width="32" height="17"></canvas>
+</body>
+
+<script src="../assets/draw-stuff.js"></script>
+<script>
+  var canvas = document.getElementById("grid");
+  var context = canvas.getContext("2d");
+  var scale = 10;
+  canvas.width = canvas.width * scale;
+  canvas.height = canvas.height * scale;
+  draw_cells(context, scale);
+</script>
+
+</html>
