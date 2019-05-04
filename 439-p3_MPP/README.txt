@@ -1,5 +1,5 @@
 README: Notes on an HTML + CSS + JS example
-Time-stamp: <2019-04-06 20:31:18 Michael Perez>
+Time-stamp: <2019-05-04 20:00:00 Michael Perez>
 ------------------------------------------------------------
 
 How to handle the JS-1 files to get results:
